@@ -34,7 +34,7 @@
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:80px 0; background-color: transparent;}
+.container{padding:50px 0; background-color: transparent;}
 
 /* Content */
 .container .content{ background-color: transparent;}
@@ -43,7 +43,7 @@
 .sectiontitle *{margin:0;}
 .sectiontitle .heading{margin-bottom:20px;}
 
-.posts figure{display:block; margin-bottom:50px; background-color: transparent;}
+.posts figure{display:block; margin-bottom:50px; background-color: #ffffffa6; border-radius: 1em;}
 .posts figure:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
 .posts figure > div, .posts figure figcaption{display:block; float:left; width:50%; background-color: transparent;}
 .posts figure > div{}
@@ -385,14 +385,14 @@ table a, #comments a{background-color:inherit;}
 	#comments input[type="reset"]{margin-top:10px;}
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
 
-	#footer{}
+	#footer::before{border-top: solid 2px rgba(255, 255, 255, 0.25);width: auto;}
 
 	#copyright{}
 	#copyright p:first-of-type{margin-bottom:10px;}
 }
 
 @media screen and (min-width:750px) and (max-width:978px){
-	.posts figure figcaption{padding-top:0;}
+	.posts figure figcaption{padding:auto;}
 }
 
 @media screen and (max-width:750px){

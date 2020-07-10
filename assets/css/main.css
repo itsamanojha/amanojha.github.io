@@ -2606,6 +2606,7 @@
 			#header .avatar img {
 				display: block;
 				width: 10em;
+				border-radius: 5em;
 			}
 
 		@media screen and (max-width: 1280px) {

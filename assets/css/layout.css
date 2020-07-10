@@ -47,14 +47,14 @@
 .posts figure:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
 .posts figure > div, .posts figure figcaption{display:block; float:left; width:50%; background-color: transparent;}
 .posts figure > div{}
-.posts figure > div img{width:auto; max-width:100%; height:340px; margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;margin-left: auto;margin-right: auto;}
-.posts figure figcaption{padding:50px 0 0 50px;}
+.posts figure > div img{width:auto; max-width:100%; height:340px; margin:0; padding:20px;border-radius: 4em; border:none; line-height:normal; vertical-align:middle;margin-left: auto;margin-right: auto;}
+.posts figure figcaption{padding:50px;}
 .posts figure figcaption{}
 .posts figure figcaption *{margin:0;}
 .posts figure figcaption .heading{margin-bottom:30px;}
 .posts figure figcaption footer{margin-top:30px;}
 .posts figure:nth-child(even) > div{float:right;}
-.posts figure:nth-child(even) figcaption{float:left; padding-left:0; padding-right:50px;}
+.posts figure:nth-child(even) figcaption{float:left; padding-left:20px; padding-right:30px;padding-top: auto;padding-bottom: auto;}
 
 .team{}
 .team li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */

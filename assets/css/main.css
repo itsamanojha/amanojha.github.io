@@ -1419,6 +1419,8 @@
 	body {
 		background-color: #000;
 		background-image: url("../../images/bg.jpg");
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
 		background-size: cover;
 		background-position: top center;
 	}
